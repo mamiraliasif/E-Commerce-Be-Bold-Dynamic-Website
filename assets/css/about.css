@@ -1,0 +1,159 @@
+#abouthero {
+    width: 100wh;
+    height: 70vh;
+    background-image: url(./aboutimgs/bg-05.jpg);
+    background-size: cover;
+    background-position: center;
+    /* margin:0 10px */
+}
+
+/* below hero  */
+
+.belowhero .container{
+    
+    margin-top: 80px;
+}
+.belowhero .container .belowleft h2{
+    font-family: "Marcellus" , serif;
+    font-size: 43px;
+    line-height: 35px;
+    font-weight: 400;
+}
+.belowhero .container .belowleft h5{
+    font-family: "Marcellus" , serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.belowhero .container .belowleft span{
+    color: rgb(212,166,182);
+}
+.belowhero .container  .belowright{
+    height: 588.3px; 
+    width: 670px;
+    padding: 101px 101px 67px 101px;
+    min-height: auto;
+    min-width: auto;
+    /* border: 2px solid aqua; */
+    background-color:  rgb(246,237,240);
+    position: relative;
+    top:-105px;
+}
+.belowhero .container .belowright h4{
+    font-family: "Marcellus" , serif;
+    font-size: 23px;
+    line-height: 20px;
+    font-weight: 400;
+    color:  rgb(33, 37, 41);
+}
+.belowhero .container .belowright p{
+    font-family: 'Open Sans',  sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    color:  rgb(93, 91, 91);
+    margin-top: 28px;
+}
+
+/* below hero end  */
+
+ /* about product section start  */
+
+ .aboutproduct .bg-img{
+    background-image: url(./aboutimgs/bg-04.jpg);
+    width: 100%;
+    height: 110vh;
+    background-position: center center;
+    background-size: cover;
+    margin-top: -70px;
+    /* background-attachment: fixed; */
+ }
+ .aboutproduct .bg-img .product-txt{
+    margin-top: 43%;
+ }
+ .aboutproduct .bg-img h2{
+    font-family: "Marcellus" , serif;
+    font-size: 43px;
+    line-height: 13px;
+    font-weight: 400;
+ }
+ .aboutproduct .bg-img span{
+    margin-top: 0px;
+ }
+ .aboutproduct .bg-img h4{
+    font-family: "Marcellus" , serif;
+    font-size: 23px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-top: 15px;
+ }
+
+  /* about product section end  */
+
+
+/* about owner section start   */
+
+.ownerwrapper .owner{
+    width: 100%;
+    margin-top: 18px;
+    /* border: 2px solid red; */
+}
+.ownerwrapper .owner .left {
+    padding: 0;
+    
+}
+.ownerwrapper .owner .left img{
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+   
+}
+
+.ownerwrapper .owner .right {
+    background-color:rgb(246, 237, 240) ;
+    padding: 100px 80px 80px 100px;
+    
+}
+.ownerwrapper .owner .right h6 {
+    font-family: "Marcellus" , serif;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgb(93, 91, 91);
+    margin-top: 190px;
+}
+.ownerwrapper .owner .right h2 {
+    font-family: "Marcellus" , serif;
+    font-size: 43px;
+    line-height: 43px;
+    font-weight: 400;
+    color: black;
+}
+.ownerwrapper .owner .right h4 {
+    font-family: "Marcellus" , serif;
+    font-size: 23px;
+    line-height: 28px;
+    font-weight: 400;
+    color: black;
+}
+
+.ownerwrapper .owner .right span{
+    margin-top: 10px ;
+    color: rgb(212,166,182);
+}
+.ownerwrapper .owner .right p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    color: rgb(93, 91, 91);
+    margin-top: 25px;
+}
+
+
+
+
+
+/* about owner section end   */

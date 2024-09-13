@@ -1,0 +1,201 @@
+#shop{
+    border-bottom: 1px solid rgba(92, 89, 89, 0.5);
+}
+
+/* shop bread start */
+.heroshop .cc{
+    color: rgb(119, 119, 119);
+}
+
+.heroshop li{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.shopbread
+{
+    margin-top: 80px;
+}
+
+/* shop bread end  */
+
+/* shop heading start */
+
+.resultcount {
+    margin-top: 55px;
+}
+
+.shoph1 h1{
+    font-family: "Marcellus" , serif;
+    font-size: 63px;
+    line-height: 63px;
+    font-weight: 400;
+    color: black;
+}
+
+/* product 1 strat  */
+/* .shop-p-wraper{
+    border: 5px solid black;
+} */
+.shop-p-wraper .hh{
+    width: 100vw;
+    
+    /* border: 2px solid red; */
+}
+.shop-p-wraper .shop-p{
+    height: 480px;
+    width: 320px;
+    /* border: 2px dotted red; */
+    padding: 0;
+}
+.shop-p-wraper .shop-p .p-img{
+    height: 390px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    
+}
+.shop-p-wraper .shop-p .p-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+/* .shop-p-wraper .shop-p .p-img img:hover{
+    transform: scale(1.1);
+   
+} */
+.shop-p-wraper .shop-p .p-img:hover img {
+    transform: scale(1.1);
+    position: absolute;
+    transform-origin: center center;
+    transition: transform 0.4s linear; /* Add transition for smooth scaling */
+    z-index: 1; /* Ensure image is above other content */
+}
+.sale{
+    font-family: "Open Sans", sans-serif;
+    font-size: 13.92px;
+    font-weight: 500;
+    text-decoration: none solid rgb(93, 91, 91);
+    text-align: left;
+    word-spacing: 0px;
+    background-color: white;
+    height: 30.325px;
+    width: 53.1625px;
+    padding: 6px 11px 6px 11px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px 0px;
+    position: absolute;
+    top: 17px;
+    left: 20.88px;
+    z-index: 5;
+    color:  rgb(93, 91, 91);
+}
+.cart-icon{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    background-color: white;
+    color:  rgb(93, 91, 91);
+    height: 32px;
+    width: 32px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px 0px;
+    border-radius: 50%;
+    z-index: 5;
+    position: absolute;
+    overflow: hidden;
+    top: 17px;
+    right: 15px;
+    opacity: 0;
+    transition: all 0.4s ease-in;
+}
+.shop-p-wraper .shop-p .p-ratting h2{
+    font-family: "Marcellus" , serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: black;
+    margin-top: 11px;
+}
+.shop-p-wraper .shop-p .p-ratting .s-rating span{
+    font-size: 14px ;
+    line-height: 14px;
+    color: rgb(93, 91, 91);
+    letter-spacing: 0;
+   
+}
+.shop-p-wraper .shop-p .p-ratting .s-rating{
+    margin-left: 3px;
+}
+.shop-p-wraper .shop-p .p-ratting .s-rating .fa{
+    margin-left: -5px;
+}
+.shop-p-wraper .shop-p .p-ratting .cutting{
+    font-size: 14px ;
+    line-height: 19px;
+    color: rgba(93, 91, 91 ,0.5);
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+.shop-p-wraper .shop-p .p-ratting .price{
+    font-size: 14px ;
+    line-height: 19px;
+    color: rgba(93, 91, 91 );
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+.shop-p-wraper .shop-p:hover .cart-icon{
+    opacity: 1;
+}
+
+.p-1{
+    margin-top: 10px;
+}
+/* product 1 end  */
+
+
+/* pagination  */ 
+/* .pagr{
+    border: 2px solid red;
+} */
+.pagr .pagi {
+    padding: 0;
+}
+ 
+.page-item:first-child .page-link {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.page-item:last-child .page-link {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.page-link {
+    padding: 13px 20px;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
+.page-link{
+    color: black;
+    border-color: black;
+}
+.page-item:not(:first-child) .page-link {
+    margin-left: 3px;
+}
+.page-link:hover{
+    background-color: black;
+    color: #fff;
+    transition: unset;
+}
+
+
+
+
+
+
