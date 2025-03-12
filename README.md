@@ -58,7 +58,7 @@ Navigate to `http://localhost/yourproject` in your web browser.
 
 ## Frontend Website Link
 The frontend of the website is hosted on Netlify. You can access it here:
-[Be-Bold Store](#) *(Replace with actual link)*
+[Be-Bold Store](#https://66e14d46606808bcdc8e616b--bebold-store.netlify.app/) 
 
 ## Contributing
 Contributions are welcome! Please submit issues or pull requests.
